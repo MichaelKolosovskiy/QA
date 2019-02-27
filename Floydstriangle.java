@@ -1,12 +1,12 @@
 
-public class Floydstriangle {
+public class FloydsTriangle {
 public static void main(String[] args) {
-	
-	int z =1;
-	for (int n = 1;n<=6;n++) {
-		for( int c = 0; c < n; c++) { 
-			System.out.print(z+" "); 
-			z++;
+	char SPACE = ' ';
+	int i =1;
+	for (int j = 1; j<=6; j++) {
+		for( int c = 0; c < j; c++) { 
+			System.out.print(i + SPACE); 
+			i++;
 		}System.out.println();
 	}
 }
